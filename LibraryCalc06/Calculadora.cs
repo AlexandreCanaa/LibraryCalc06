@@ -26,5 +26,10 @@ namespace LibraryCalc06
         public int Subtrair(int x, int y) {
             return x - y;
         }
+
+        public int Subtrair(int x, int y, int z)
+        {
+            return x - y - z;
+        }
     }
 }

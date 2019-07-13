@@ -18,7 +18,7 @@ namespace LibraryCalc06
         int Somar(int x, int y);
 
         /// <summary>
-        /// Soma de valores, três parâmetros
+        /// Soma de valores, 3 parâmetros
         /// </summary>
         /// <param name="x">Valor Inteiro</param>
         /// <param name="y">Valor Inteiro</param>
@@ -32,6 +32,15 @@ namespace LibraryCalc06
         /// <param name="y">Valor Inteiro</param>
         /// <returns>Resultado da Subtração</returns>
         int Subtrair(int x, int y);
+
+        /// <summary>
+        /// Subtração de valores, 3 parâmetros
+        /// </summary>
+        /// <param name="x">Valor Inteiro</param>
+        /// <param name="y">Valor Inteiro</param>
+        /// <param name="z">Valor Inteiro</param>
+        /// <returns></returns>
+        int Subtrair(int x, int y, int z);
 
         /// <summary>
         /// Multiplicação de valores
