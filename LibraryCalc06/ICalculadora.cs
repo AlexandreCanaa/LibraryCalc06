@@ -58,5 +58,13 @@ namespace LibraryCalc06
         /// <returns>Resultado da Divisão</returns>
         double Dividir(double x, double y);
 
+        /// <summary>
+        /// Potenciação de Valores
+        /// </summary>
+        /// <param name="x">Valor de ponto flutuante(double)</param>
+        /// <param name="y">Valor de ponto flutuante(double)</param>
+        /// <returns></returns>
+        double Potencia(double x, double y);
+
     }
 }

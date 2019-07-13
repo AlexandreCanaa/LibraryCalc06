@@ -29,7 +29,13 @@ namespace LibraryCalc06
 
         public int Subtrair(int x, int y, int z)
         {
+
             return x - y - z;
+        }
+
+        public double Potencia(double x, double y)
+        {
+            return Math.Pow(x, y);
         }
     }
 }
