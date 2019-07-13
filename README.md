@@ -5,3 +5,23 @@ LibraryCalc06
 
 ## How to install
 Install-Package LibraryCalc06 -Version 1.2.0
+
+```cs
+using LibraryCalc06
+using System
+
+namespace Example
+{
+    class Program
+    {
+        static void Main(string [] args)
+        {
+            var calculadora = new Calculadora();
+            
+            var x = 5;
+            var y = 4;
+            
+            var result = calculadora.Soma(x, y)
+        }
+    }
+}
